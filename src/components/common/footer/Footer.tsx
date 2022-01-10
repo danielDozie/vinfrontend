@@ -9,8 +9,8 @@ import Link from 'next/link'
 export default function Footer() {
     return (
         <>
-        <Box maxW="7xl" mx="auto">
-            <Box bgImage={mode("../image/assets/footerWave.svg","../image/assets/footerWave2.svg")} bgSize="cover" h={["120px","180px"]} mt={["-100px","-150px"]}/>
+        <Box maxW="7xl" mx="auto" >
+            <Box bgImage={mode("/image/assets/footerWave.svg","/image/assets/footerWave2.svg")} bgSize="cover" h={["120px","180px"]} mt={["-100px","-150px"]} zIndex="999999"/>
             <Box bgColor={mode("deepBlue.100", "")} pb={["0","100px"]}>
                 <Box maxW="5xl" mx="auto" >
                 <Flex justify="space-between" direction={[ 'column', 'row' ]} px={["8","0"]}>
